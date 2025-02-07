@@ -1,6 +1,9 @@
-# Eberth da silva Rodrigues
-# 16 anos 
-# aniversario : 02/08/2008 
-# Natural do Pará
-# Eu amo a aula de zumba, mas amo mesmo de programcao de aplicativos
-# ponto adcionado 05/02/2005 18:51pm
+#primeira aula de python em codigo
+x = 34-23 #um comentario
+y = "hello" #outro comentario
+z = 3.45
+if z == 3.45 or y == "hello":
+      x = x + 1
+      y = y + " word " #concentração de strings
+print(x)
+print(y)
