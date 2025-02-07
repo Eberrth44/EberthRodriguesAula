@@ -7,3 +7,4 @@ if z == 3.45 or y == "hello":
       y = y + " word " #concentração de strings
 print(x)
 print(y)
+
