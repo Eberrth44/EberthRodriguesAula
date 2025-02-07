@@ -1,1 +1,2 @@
-print ("eberth")
+nome = input ("eberth")
+print (nome)
