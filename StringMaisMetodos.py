@@ -1,4 +1,4 @@
-#TRANSFORMAR APENAS A PRIMEIRA LETRA DE UMA STRING EM MMAIUSCULA
+#TRANSFORMAR APENAS A PRIMEIRA LETRA DE UMA STRING EM MAIUSCULA
 nome = "eberth"
 print (nome.capitalize(),"\n")
 print ("--------------------------------------------")

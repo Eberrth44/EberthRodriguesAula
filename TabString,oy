@@ -1,3 +1,4 @@
+#uso do tab em variaveis  
 print("Python")
 print ("\tPython")
 # para acrescentar uma quebra de linha em uma String, utiliza a combinaçao caracter \n:
