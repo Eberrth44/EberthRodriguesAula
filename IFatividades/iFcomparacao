@@ -1,0 +1,7 @@
+faturamento = input ('qual foi o faturamento de loja nesse mes?')
+custo = input ('qual foi o custo da loja nesse mes?')
+if faturamento!= '' and faturamento != '':
+    lucro = int (faturamento)- int (custo)
+    print ('o lucro da loja foi de {}R$'.format(lucro))
+else:
+    print("Algum valor nao fornecido")
