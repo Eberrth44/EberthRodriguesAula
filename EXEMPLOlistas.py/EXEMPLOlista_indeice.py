@@ -1,4 +1,4 @@
-produtos = ['tv', 'celular', 'mouse', 'teclado', 'tablet']
+produtos = ['tv', 'celular', 'tablet', 'mouse', 'teclado', 'forno']
 print(produtos[1])
 print (produtos[2])
 
@@ -11,11 +11,12 @@ print ('o produto da posiçao i é '+ str (produtos[i]))
 print("-----------------------")
 
 #Pesquisa de produto não cadastrado
-produtos = ['tv', 'celular', 'tablet', 'mouse', 'teclado', 'forno']
-estoque = [1000,1500,350,270,900]
+produtos = ['tv', 'celular', 'tablet', 'mouse', 'teclado', 'forno', 'nada']
+estoque = [1000,1500,350,270,900,2200,777]
 produto = input ('insira o nome do produto em letra minuscula:')
-if produto == '':
+if produto in produtos:
     i = produtos.index(produto)
-    print(i)
+    qtde_estoque = estoque[i]
+    print ('temos {} unidades de {} no estoque'.format(qtde_estoque, produto))
 else:
-    print("error 404")
+    print ("{} não existe no estoque".format(produto))
