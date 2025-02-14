@@ -11,8 +11,8 @@ print ('o produto da posiçao i é '+ str (produtos[i]))
 print("-----------------------")
 
 #Pesquisa de produto não cadastrado
-produtos = ['tv', 'celular', 'tablet', 'mouse', 'teclado', 'forno', 'nada']
-estoque = [1000,1500,350,270,900,2200,777]
+produtos = ['tv', 'celular', 'tablet', 'mouse', 'teclado', 'forno']
+estoque = [1000,1500,350,270,900,2200]
 produto = input ('insira o nome do produto em letra minuscula:')
 if produto in produtos:
     i = produtos.index(produto)
