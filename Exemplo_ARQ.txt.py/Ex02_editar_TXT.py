@@ -1,0 +1,8 @@
+arquivo02 = open('C:/Users/eberth_rodrigues/Documents/TXT/GOT.txt ','w')
+arquivo02.write('Escrevendo no arquivo\n')
+arquivo02.write('Eberth Rodrigues\n')
+arquivo02.write("Caio aires\n")
+arquivo02.write("Kaio mazza\n")
+arquivo02.write("Daniel balera\n")
+arquivo02.close()
+print ("fim programa")
