@@ -13,4 +13,4 @@ print (lucro_2Tri)
 #remover todos os dados de um dicionario!
 print ("______________________________________")
 lucro_2Tri.clear()
-print (lucro_2Tri)("vvvnvnvnvnvnvndkvkdvnknv x xx   m    * 0")
+print (lucro_2Tri)
