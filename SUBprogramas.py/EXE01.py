@@ -8,4 +8,4 @@ def main():
     nome_usuario = get_nome()
     print_mensagem (nome_usuario)
 
-main(get_nome)
+main()
